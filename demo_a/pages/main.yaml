@@ -1,0 +1,3 @@
+- by: MobileBy.ID
+  value: search
+  action: click
