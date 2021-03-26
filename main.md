@@ -262,17 +262,22 @@ appium -g appium.log
 # Original error: No Chromedriver found that can automate Chrome '52.0.2743'. You could also try to enable automated 
 # chromedrivers download server feature. 
 # See https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/web/chromedriver.md for more detail
-# 原因: appium
+# 原因: appium 会从 ..\npm\node_modules\appium\node_modules\_appium-chromedriver.. 下查找 chromedriver
 
-# chromedriverExecutable 与 chromedriverExecutableDir 等价，前者指明具体文件，后者只需指明目录
+# 4.指定目录，chromedriverExecutable 与 chromedriverExecutableDir 等价，前者指明具体文件，后者只需指明目录
+# 在把 chromedriver 添加刀环境变量的情况下，还是不能运行，所以还是指定了查找目录
+
+# 5.chrome://inspect/#devices，在使用 mumu 模拟器自带浏览器的情况下能进行查看
 caps = {
-    "deviceName": "127.0.0.1:7555",
+    "deviceName": "127.0.0.1:7555", # mumu 模拟器连接时需要指定 adb connect 127.0.0.1:7555
     "platformName": "Android",
     "platformVersion": "6.0.1",
     "browserName": "Browser",
     "automationName": "UiAutomator2",
     "chromedriverExecutable": "C:\\webdriver\\chromedriver.exe",
     # "chromedriverExecutableDir": "C:\\webdriver",
+    # "appPackage": "com.android.browser",  # 查看手机自带浏览器的包名 adb shell pm list packages -s | findstr browser
+    # "appActivity": "com.android.browser.BrowserActivity", # 打开引用查看当前应用 adb shell dumpsys window | findstr mCurrent
     "noRest": True
 }
 ```
