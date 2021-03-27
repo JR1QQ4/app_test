@@ -18,8 +18,8 @@ class BasePage:
                 "platformVersion": "6.0.1",
                 "browserName": "Browser",
                 "automationName": "UiAutomator2",
+                "chromedriverExecutableDir": "C:\\webdriver",
                 # "chromedriverExecutable": "C:\\webdriver\\chromedriver.exe",
-                # "chromedriverExecutableDir": "C:\\webdriver",
                 # "appPackage": "com.android.browser",
                 # "appActivity": "com.android.browser.BrowserActivity",
                 "noRest": True

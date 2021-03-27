@@ -50,6 +50,13 @@ WebDriver script(Client) <-> Appium Modules(Server) <-> apk
 #### 生态工具
 
 - adb
+    - 获取当前界面元素: adb shell dumpsys activity top (推荐) (重点)
+    - 获取任务列表: adb shell dumpsys activity activities
+    - 获取 app 入口
+        - adb logcat | grep -i displayed (推荐) (重点)
+        - aapt dump badging mobike.apk | grep launchable-activity
+        - apkanalyzer (最新版本的 sdk 才有)
+    - 启动应用: adb shell am start -W -n appPackage/appActivity -S (重点)
 - android的控制工具
 - Appium Desktop
     - 内嵌了 appium server 和 inspector 
@@ -289,6 +296,7 @@ caps = {
     - 浏览器能访问谷歌，并下载 chromedriver 对应的版本
 - 手机端
     - 应用代码需要打开 webview 开关
+    - 或者，如果知道生成的 webview 的网址(抓包)，那么可以复制网址到浏览器查看页面元素的结构 
 - 代码
     - appPackage, appActivity
     - chromedriverExecutable
