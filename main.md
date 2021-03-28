@@ -95,6 +95,7 @@ from appium import webdriver
 
 ### Capability 设置
 
+- 文档地址: `https://appium.io/docs/en/writing-running-appium/caps/`
 - appPackage 包名
 - appActivity Activity名字
 - automationName 安卓默认uiautomator2/iOS默认XCUITest
