@@ -57,6 +57,9 @@ WebDriver script(Client) <-> Appium Modules(Server) <-> apk
         - aapt dump badging mobike.apk | grep launchable-activity
         - apkanalyzer (最新版本的 sdk 才有)
     - 启动应用: adb shell am start -W -n appPackage/appActivity -S (重点)
+        - S 会重启
+    - 获取所有 webview 的进程: adb shell cat /proc/net/unix | grep webview
+    - 查看进程所对应的应用: adb shell ps | grep 1136
 - android的控制工具
 - Appium Desktop
     - 内嵌了 appium server 和 inspector 
@@ -107,6 +110,11 @@ from appium import webdriver
 - uuid 模拟器id: 如 emulator-5554
 - autoGrantPermissions 权限授予
 - waitForIdleTimeout 为了防止客户端程序响应超时，表示等待空闲
+- skipUnlock 
+- skipLogcatCapture 跳过日志的获取
+- skipLogCapture
+- systemPort
+- ignoreUnimportantViews  #跳过不知
 
 ### 日志
 
@@ -297,14 +305,21 @@ caps = {
     - 浏览器能访问谷歌，并下载 chromedriver 对应的版本
 - 手机端
     - 应用代码需要打开 webview 开关
-    - 或者，如果知道生成的 webview 的网址(抓包)，那么可以复制网址到浏览器查看页面元素的结构 
+    - (ps: 如果知道生成的 webview 的网址(抓包)，那么可以复制网址到浏览器查看页面元素的结构) 
 - 代码
     - appPackage, appActivity
-    - chromedriverExecutable
+    - `"chromedriverExecutableDir": "C:\\webdriver"`，使用 chrome inspect 查看元素定位，必须使用此参数
 - 上下文切换
     - `driver.switch_to.context(driver.contexts[-1])`
     - `driver.switch_to.default_content()`
     - `driver.switch_to.windows(driver.window_handles[-1])`
+- adb
+    - 查看 webview 包名: adb shell pm list package | findstr webview
+    - 查看 webview 版本: adb shell pm dump com.android.webview | findstr version，用于选择合适的 chromedriver
+    - 查看命令使用: adb | grep froward
+    - 把本地的8888端口映射到手机的9999端口: adb forward tcp:8888 tcp:9999
+    - 查看所有的映射: adb forward --list
+    - 删除映射，手动释放: adb forward --remove tcp:8888
 
 ### 遇到的坑
 
@@ -339,5 +354,4 @@ caps = {
     - `session_id = $(curl 'http://127.0.0.1:4723/wd/hub/sessions' \ | awk -F \" '{print $6}')`
 - 获取 sessions 状态信息
     - `curl 'http://127.0.0.1:4723/wd/hub/sessions'`
-
 
