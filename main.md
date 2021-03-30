@@ -355,3 +355,8 @@ caps = {
 - 获取 sessions 状态信息
     - `curl 'http://127.0.0.1:4723/wd/hub/sessions'`
 
+```python
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("invoke " + func.__name__ + "\n args \n" + repr(args[1:]) + repr(kwargs))
+```
