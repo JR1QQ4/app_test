@@ -320,6 +320,9 @@ caps = {
     - 把本地的8888端口映射到手机的9999端口: adb forward tcp:8888 tcp:9999
     - 查看所有的映射: adb forward --list
     - 删除映射，手动释放: adb forward --remove tcp:8888
+- 另外一种方式，不需要代理工具
+    - UC-devtools，[地址](https://dev.ucweb.com/docs/pwa/docs-zh/xy3whu)
+
 
 ### 遇到的坑
 
