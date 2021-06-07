@@ -1,6 +1,6 @@
 # app_test
 
-[Appium 基本应用](main.md)
+[Appium基本应用](Appium基本应用.md)
 [客户端专项测试](客户端专项测试.md)
 
 基本的测试和手段:

@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c92a3e13-6a23-4a47-8782-c9946f94c498" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/items/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/items/launch_time/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/items/launch_time/launch_time.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/app_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/app_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.md" beforeDir="false" afterPath="$PROJECT_DIR$/main.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.md" beforeDir="false" afterPath="$PROJECT_DIR$/Appium基本应用.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/客户端专项测试.md" beforeDir="false" afterPath="$PROJECT_DIR$/客户端专项测试.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,14 +45,14 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python tests.pytest for test_connect.TestConnect.test_add_connect">
     <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -82,6 +88,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_api.TestAPI.test_network&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
@@ -98,6 +105,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_api.TestAPI.test_screenshot_as_file&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
@@ -114,6 +122,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_api.TestAPI.test_webview&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
@@ -130,6 +139,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_connect.TestConnect.test_add_connect&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
@@ -145,6 +155,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -176,77 +187,15 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="516" y="141" key="#Inspections" timestamp="1616767595323">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="516" y="141" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1616767595323" />
-    <state x="488" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1616432696188">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="488" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1616432696188" />
-    <state x="549" y="166" key="FileChooserDialogImpl" timestamp="1616425345220">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="549" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1616425345220" />
-    <state width="1493" height="165" key="GridCell.Tab.0.bottom" timestamp="1617013122027">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="165" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1617013122027" />
-    <state width="1493" height="165" key="GridCell.Tab.0.center" timestamp="1617013122026">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="165" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1617013122026" />
-    <state width="1493" height="165" key="GridCell.Tab.0.left" timestamp="1617013122026">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="165" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1617013122026" />
-    <state width="1493" height="165" key="GridCell.Tab.0.right" timestamp="1617013122027">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="165" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1617013122027" />
-    <state x="270" y="54" key="SettingsEditor" timestamp="1616859984042">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1616859984042" />
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1617802462205">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1617802462205" />
-    <state x="304" y="1" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1616868795915">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="304" y="1" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1616868795915" />
-    <state x="796" y="77" width="662" height="566" key="find.popup" timestamp="1617122952712">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="796" y="77" width="662" height="566" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1617122952712" />
-    <state x="430" y="146" width="672" height="678" key="search.everywhere.popup" timestamp="1617123002460">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="430" y="146" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1617123002460" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/app_test$pytest_for_test_api_TestAPI_test_mobile_call.coverage" NAME="pytest for test_api.TestAPI.test_mobile_call Coverage Results" MODIFIED="1616955043979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_test" />
-    <SUITE FILE_PATH="coverage/app_test$pytest_for_test_index_TestIndex_test_index_search.coverage" NAME="pytest for test_index.TestIndex.test_index_search Coverage Results" MODIFIED="1616781813188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web_app_demo_a/test_cases" />
-    <SUITE FILE_PATH="coverage/app_test$pytest_for_test_api_TestAPI_test_search_and_get_price.coverage" NAME="pytest for test_api.TestAPI.test_search_and_get_price Coverage Results" MODIFIED="1616920249677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_test" />
-    <SUITE FILE_PATH="coverage/app_test$pytest_for_test_api_TestAPI_test_scroll_and_search_with_android_selector.coverage" NAME="pytest for test_api.TestAPI.test_scroll_and_search_with_android_selector Coverage Results" MODIFIED="1616926314557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_test" />
-    <SUITE FILE_PATH="coverage/app_test$run.coverage" NAME="run Coverage Results" MODIFIED="1617008097092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo_b" />
-    <SUITE FILE_PATH="coverage/app_test$pytest_for_test_api_TestAPI_test_msg.coverage" NAME="pytest for test_api.TestAPI.test_msg Coverage Results" MODIFIED="1616955180534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_test" />
-    <SUITE FILE_PATH="coverage/app_test$pytest_for_test_api_TestAPI_test_toast.coverage" NAME="pytest for test_api.TestAPI.test_toast Coverage Results" MODIFIED="1616926497474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_test" />
-    <SUITE FILE_PATH="coverage/app_test$get_path.coverage" NAME="get_path Coverage Results" MODIFIED="1616433491640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo_a/utils" />
-    <SUITE FILE_PATH="coverage/app_test$pytest_for_test_main_TestMain_test_configuration.coverage" NAME="pytest for test_main.TestMain.test_configuration Coverage Results" MODIFIED="1616469493683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo_a/test_cases" />
-    <SUITE FILE_PATH="coverage/app_test$pytest_for_test_api_TestAPI_test_move_to.coverage" NAME="pytest for test_api.TestAPI.test_move_to Coverage Results" MODIFIED="1616924523601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_test" />
-    <SUITE FILE_PATH="coverage/app_test$pytest_for_test_api_TestAPI_test_search_get_price.coverage" NAME="pytest for test_api.TestAPI.test_search_get_price Coverage Results" MODIFIED="1616952473629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_test" />
-    <SUITE FILE_PATH="coverage/app_test$pytest_for_test_api_TestAPI_test_screenshot_as_file.coverage" NAME="pytest for test_api.TestAPI.test_screenshot_as_file Coverage Results" MODIFIED="1616955545051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_test" />
-    <SUITE FILE_PATH="coverage/app_test$pytest_for_test_main_TestMain_test_search.coverage" NAME="pytest for test_main.TestMain.test_search Coverage Results" MODIFIED="1616433170861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo_a/test_cases" />
-    <SUITE FILE_PATH="coverage/app_test$pytest_for_test_api_TestAPI_test_network.coverage" NAME="pytest for test_api.TestAPI.test_network Coverage Results" MODIFIED="1616955509860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_test" />
-    <SUITE FILE_PATH="coverage/app_test$pytest_for_test_api_TestAPI_test_search_and_show_attribute.coverage" NAME="pytest for test_api.TestAPI.test_search_and_show_attribute Coverage Results" MODIFIED="1616922792830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_test" />
-    <SUITE FILE_PATH="coverage/app_test$pytest_for_test_api_TestAPI_test_webview.coverage" NAME="pytest for test_api.TestAPI.test_webview Coverage Results" MODIFIED="1617000686680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_test" />
-    <SUITE FILE_PATH="coverage/app_test$pytest_for_test_connect_TestConnect_test_add_connect.coverage" NAME="pytest for test_connect.TestConnect.test_add_connect Coverage Results" MODIFIED="1617012794707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo_b/test_cases" />
-    <SUITE FILE_PATH="coverage/app_test$pytest_for_test_index_TestIndex_test_assert_that.coverage" NAME="pytest for test_index.TestIndex.test_assert_that Coverage Results" MODIFIED="1616769612381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web_app_demo_a/test_cases" />
-    <SUITE FILE_PATH="coverage/app_test$pytest_for_test_index_TestIndex_test_index.coverage" NAME="pytest for test_index.TestIndex.test_index Coverage Results" MODIFIED="1616769806263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web_app_demo_a/test_cases" />
-    <SUITE FILE_PATH="coverage/app_test$pytest_for_test_api_TestAPI_test_search.coverage" NAME="pytest for test_api.TestAPI.test_search Coverage Results" MODIFIED="1616917596270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_test" />
-    <SUITE FILE_PATH="coverage/app_test$pytest_for_test_api_TestAPI_test_main.coverage" NAME="pytest for test_api.TestAPI.test_main Coverage Results" MODIFIED="1616902831206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_test" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
